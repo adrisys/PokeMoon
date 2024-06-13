@@ -1,0 +1,24 @@
+
+<body style="background-color: black;">
+
+  <div class="bg-animation">
+      <div id="stars" class="fondo"></div>
+      <div id="stars2" class="fondo"></div>
+      <div id="stars3" class="fondo"></div>
+      <div id="stars4" class="fondo"></div>
+  </div>
+  <mat-grid-list [cols]="cols" rowHeight="1:1" gutterSize="80px">
+    <mat-grid-tile *ngFor="let pokemon of pokemons" class="pokemon-tile" [id]="'pokemon-' + pokemon.idpoke" (click)="openDetails(pokemon)">
+      <div class="pokemon-id">Nº{{pokemon.idpoke.toString().padStart(4, '0')}}</div>
+      <img [src]="pokemon.picURL"  (load)="calculateAspectRatio($event)"  
+      [ngStyle]="aspectRatio > 1 ? {'width': '60%', 'height': 'auto'} : {'height': '60%', 'width': 'auto'}" 
+      class="pokemon-image" />
+      <div class="pokemon-name">{{pokemon.pokename.toLocaleUpperCase()}}</div>
+      <div class="pokemon-types">
+        <div *ngFor="let type of pokemon.types" [ngClass]="'type-' + type.typename"  [ngStyle]="{'background-color': typeColors.get(type.typename)}">{{type.typename}}</div>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</body>
+
+

@@ -1,0 +1,10 @@
+<mat-toolbar>
+  <span class="title">POKEDEX</span>
+  <div *ngIf="showError" class="error">Error al buscar el pokemon</div>
+<div class="busqueda">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Buscar Pokémon por nombre o número" #inputPokemon>
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="buscarPokemon(inputPokemon.value)">Buscar</button>
+</div>
+</mat-toolbar>

@@ -1,0 +1,33 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .error{
+    color: #ff0000; /* Texto en rojo */
+    padding: 10px; /* Espacio alrededor del texto */
+    margin: 10px ; /* Espacio arriba y abajo del div */
+    font-weight: bold; /* Texto en negrita */
+    font-size: small; /* Tamaño de la fuente */
+    position: absolute;
+    z-index: 1;
+    right: 29%;
+  }
+
+  mat-toolbar {
+    background-color: #8f8f8f; /* Color de fondo */
+  }
+
+  mat-form-field {
+    width: 80%; /* Ancho del campo de texto */
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .title {
+    width: 70%;
+    font-size: xx-large;
+  }
+
+  .busqueda {
+    text-align: right;
+    width: 30%;
+  }

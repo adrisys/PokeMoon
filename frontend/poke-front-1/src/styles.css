@@ -1,0 +1,16 @@
+:root{
+  color-scheme: light dark;
+}
+
+html { height: 100%;
+background-color: black; }
+body { 
+  margin: 0;
+   font-family: Roboto, "Helvetica Neue", sans-serif;
+    height: auto;
+  }
+
+
+.mat-grid-tile-content{
+    flex-direction: column;
+  }

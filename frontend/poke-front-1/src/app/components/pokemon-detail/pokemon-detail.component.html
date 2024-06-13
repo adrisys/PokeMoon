@@ -1,0 +1,46 @@
+<div class="container">
+    <h1>{{ data.pokemon.pokename.toLocaleUpperCase() }}</h1>
+    <h2>Stats:</h2>
+    <div class="stats">
+        <div class="stat">
+            <p>HP:</p>
+                <mat-progress-bar mode="determinate" [value]="(data.pokemon.hp / 252) * 100"></mat-progress-bar>
+            <span>{{ data.pokemon.hp }}</span>
+        </div>
+        <div class="stat">
+            <p>Ataque:</p>
+                <mat-progress-bar mode="determinate" [value]="(data.pokemon.attack / 252) * 100"></mat-progress-bar>
+            <span>{{ data.pokemon.attack }}</span>
+        </div>
+        <div class="stat">
+            <p>Defensa:</p>
+                <mat-progress-bar mode="determinate" [value]="(data.pokemon.defense / 252) * 100"></mat-progress-bar>
+            <span>{{ data.pokemon.defense }}</span>
+        </div>
+        <div class="stat">
+            <p>Ataque Especial:</p>
+                <mat-progress-bar mode="determinate" [value]="(data.pokemon.spattack / 252) * 100"></mat-progress-bar>
+            <span>{{ data.pokemon.spattack }}</span>
+        </div>
+        <div class="stat">
+            <p>Defensa Especial:</p>
+                <mat-progress-bar mode="determinate" [value]="(data.pokemon.spdefense / 252) * 100"></mat-progress-bar>
+            <span>{{ data.pokemon.spdefense }}</span>
+        </div>
+        <div class="stat">
+            <p>Velocidad:</p>
+                <mat-progress-bar mode="determinate" [value]="(data.pokemon.speed / 252) * 100"></mat-progress-bar>
+            <span>{{ data.pokemon.speed }}</span>
+        </div>
+    </div>
+
+    <div class="poketypes">
+        <p>Tipos:</p>
+        <div class="pokemon-types">
+            <div *ngFor="let type of data.pokemon.types" [ngClass]="'type-' + type.typename"
+                [ngStyle]="{ 'background-color': typeColors.get(type.typename) }">
+                {{ type.typename }}
+            </div>
+        </div>
+    </div>
+</div>
