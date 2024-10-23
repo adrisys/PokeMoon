@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PokeMoon\\backend\\ApiPokemon\\ApiPokemon.csproj": {}
+    "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\ApiPokemon.csproj": {}
   },
   "projects": {
-    "C:\\PokeMoon\\backend\\ApiPokemon\\ApiPokemon.csproj": {
+    "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\ApiPokemon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PokeMoon\\backend\\ApiPokemon\\ApiPokemon.csproj",
+        "projectUniqueName": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\ApiPokemon.csproj",
         "projectName": "ApiPokemon",
-        "projectPath": "C:\\PokeMoon\\backend\\ApiPokemon\\ApiPokemon.csproj",
+        "projectPath": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\ApiPokemon.csproj",
         "packagesPath": "C:\\Users\\adrii\\.nuget\\packages\\",
-        "outputPath": "C:\\PokeMoon\\backend\\ApiPokemon\\obj\\",
+        "outputPath": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,13 +52,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
@@ -65,7 +66,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -105,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

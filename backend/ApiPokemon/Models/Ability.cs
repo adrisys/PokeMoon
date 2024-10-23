@@ -6,7 +6,6 @@ namespace ApiPokemon.Models;
 
 public partial class Ability
 {
-
     public ushort Idability { get; set; }
 
     public string Abilityname { get; set;} = "";

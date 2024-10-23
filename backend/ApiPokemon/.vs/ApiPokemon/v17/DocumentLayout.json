@@ -1,65 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\PokeMoon\\backend\\ApiPokemon\\",
+  "WorkspaceRootPath": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\data\\pokemoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:data\\pokemoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\services\\loaddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\services\\loaddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:services\\loaddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\models\\egggroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:models\\egggroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\models\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:models\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Data\\OldPokemonContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\OldPokemonContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\migrations\\20240430122257_sincronizarbasededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:migrations\\20240430122257_sincronizarbasededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Migrations\\20241023035538_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241023035538_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\migrations\\20240430124017_addpictopokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:migrations\\20240430124017_addpictopokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\services\\pokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:services\\pokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\migrations\\pokemoncontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:migrations\\pokemoncontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\dtos\\pokemondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:dtos\\pokemondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\dtos\\poketypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:dtos\\poketypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\models\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:models\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\models\\poketype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\models\\poketype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:models\\poketype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|c:\\pokemoon\\backend\\apipokemon\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\models\\egggroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:models\\egggroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\models\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:models\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\dtos\\poketypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:dtos\\poketypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\dtos\\pokemondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:dtos\\pokemondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\data\\pokemoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:data\\pokemoncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\models\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:models\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|e:\\dev\\pokemoon\\pokemoon\\backend\\apipokemon\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{42994F59-353F-44CD-B4F2-41BAD50F6B19}|ApiPokemon.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -70,120 +78,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "PokeType.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\PokeType.cs",
+              "RelativeDocumentMoniker": "Models\\PokeType.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\PokeType.cs",
+              "RelativeToolTip": "Models\\PokeType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T04:45:37.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PokemonDTO.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\DTOs\\PokemonDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\PokemonDTO.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\DTOs\\PokemonDTO.cs",
+              "RelativeToolTip": "DTOs\\PokemonDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T05:44:38.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OldPokemonContext.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Data\\OldPokemonContext.cs",
+              "RelativeDocumentMoniker": "Data\\OldPokemonContext.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Data\\OldPokemonContext.cs",
+              "RelativeToolTip": "Data\\OldPokemonContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T23:14:09.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PokemonController.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Controllers\\PokemonController.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Controllers\\PokemonController.cs",
               "RelativeDocumentMoniker": "Controllers\\PokemonController.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Controllers\\PokemonController.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Controllers\\PokemonController.cs",
               "RelativeToolTip": "Controllers\\PokemonController.cs",
-              "ViewState": "AQIAALgAAAAAAAAAAAAYwOIAAAAJAAAA",
+              "ViewState": "AgIAALEAAAAAAAAAAAAwwLgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T11:42:54.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowGAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T09:40:27.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20240430124017_AddPicToPokemon.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Migrations\\20240430124017_AddPicToPokemon.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240430124017_AddPicToPokemon.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Migrations\\20240430124017_AddPicToPokemon.cs",
-              "RelativeToolTip": "Migrations\\20240430124017_AddPicToPokemon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T12:40:18.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PokemonContext.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Data\\PokemonContext.cs",
-              "RelativeDocumentMoniker": "Data\\PokemonContext.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Data\\PokemonContext.cs",
-              "RelativeToolTip": "Data\\PokemonContext.cs",
-              "ViewState": "AQIAALwAAAAAAAAAAAAkwPoAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T02:17:32.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PokeTypeDTO.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\DTOs\\PokeTypeDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\PokeTypeDTO.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\DTOs\\PokeTypeDTO.cs",
-              "RelativeToolTip": "DTOs\\PokeTypeDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T05:34:17.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20240430122257_SincronizarBaseDeDatos.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Migrations\\20240430122257_SincronizarBaseDeDatos.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240430122257_SincronizarBaseDeDatos.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Migrations\\20240430122257_SincronizarBaseDeDatos.cs",
-              "RelativeToolTip": "Migrations\\20240430122257_SincronizarBaseDeDatos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T12:22:57.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Ability.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Models\\Ability.cs",
-              "RelativeDocumentMoniker": "Models\\Ability.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Models\\Ability.cs",
-              "RelativeToolTip": "Models\\Ability.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T05:41:29.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Egggroup.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Models\\Egggroup.cs",
-              "RelativeDocumentMoniker": "Models\\Egggroup.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Models\\Egggroup.cs",
-              "RelativeToolTip": "Models\\Egggroup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T08:23:39.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LoadDataService.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Services\\LoadDataService.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Services\\LoadDataService.cs",
               "RelativeDocumentMoniker": "Services\\LoadDataService.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Services\\LoadDataService.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Services\\LoadDataService.cs",
               "RelativeToolTip": "Services\\LoadDataService.cs",
-              "ViewState": "AQIAABwBAAAAAAAAAAApwCUBAAAQAAAA",
+              "ViewState": "AgIAACgBAAAAAAAAAAAowEABAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T05:59:38.271Z",
               "EditorCaption": ""
@@ -191,75 +148,158 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Pokemon.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Models\\Pokemon.cs",
-              "RelativeDocumentMoniker": "Models\\Pokemon.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Models\\Pokemon.cs",
-              "RelativeToolTip": "Models\\Pokemon.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAmwCQAAAAAAAAA",
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T02:16:16.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PokemonDTO.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\DTOs\\PokemonDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\PokemonDTO.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\DTOs\\PokemonDTO.cs",
-              "RelativeToolTip": "DTOs\\PokemonDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T05:44:38.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PokemonContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Migrations\\PokemonContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\PokemonContextModelSnapshot.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Migrations\\PokemonContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\PokemonContextModelSnapshot.cs",
-              "ViewState": "AQIAAFQBAAAAAAAAAAAQwGoBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T12:22:26.06Z",
+              "WhenOpened": "2024-10-22T01:47:58.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Move.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Models\\Move.cs",
-              "RelativeDocumentMoniker": "Models\\Move.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Models\\Move.cs",
-              "RelativeToolTip": "Models\\Move.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 10,
+              "Title": "Ability.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\Ability.cs",
+              "RelativeDocumentMoniker": "Models\\Ability.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\Ability.cs",
+              "RelativeToolTip": "Models\\Ability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T04:25:52.488Z"
+              "WhenOpened": "2024-04-23T05:41:29.161Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PokeType.cs",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Models\\PokeType.cs",
-              "RelativeDocumentMoniker": "Models\\PokeType.cs",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Models\\PokeType.cs",
-              "RelativeToolTip": "Models\\PokeType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABUAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T04:45:37.659Z"
+              "WhenOpened": "2024-04-16T09:40:27.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Models\\Pokemon.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\Pokemon.cs",
+              "RelativeToolTip": "Models\\Pokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T02:16:16.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\PokeMoon\\backend\\ApiPokemon\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\PokeMoon\\backend\\ApiPokemon\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Title": "Move.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\Move.cs",
+              "RelativeDocumentMoniker": "Models\\Move.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\Move.cs",
+              "RelativeToolTip": "Models\\Move.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T04:25:52.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Egggroup.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\Egggroup.cs",
+              "RelativeDocumentMoniker": "Models\\Egggroup.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Models\\Egggroup.cs",
+              "RelativeToolTip": "Models\\Egggroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:23:39.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PokemonService.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Services\\PokemonService.cs",
+              "RelativeDocumentMoniker": "Services\\PokemonService.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Services\\PokemonService.cs",
+              "RelativeToolTip": "Services\\PokemonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T23:07:22.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PokemonContext.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Data\\PokemonContext.cs",
+              "RelativeDocumentMoniker": "Data\\PokemonContext.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Data\\PokemonContext.cs",
+              "RelativeToolTip": "Data\\PokemonContext.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAADwv44AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T23:09:48.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241023035538_initial.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Migrations\\20241023035538_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241023035538_initial.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Migrations\\20241023035538_initial.cs",
+              "RelativeToolTip": "Migrations\\20241023035538_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:55:38.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PokeTypeDTO.cs",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\DTOs\\PokeTypeDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\PokeTypeDTO.cs",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\DTOs\\PokeTypeDTO.cs",
+              "RelativeToolTip": "DTOs\\PokeTypeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T05:34:17.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-22T12:12:34.361Z"
+              "WhenOpened": "2024-10-21T03:26:36.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "E:\\dev\\PokeMoon\\PokeMoon\\backend\\ApiPokemon\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-22T12:12:34.361Z",
+              "EditorCaption": ""
             }
           ]
         }

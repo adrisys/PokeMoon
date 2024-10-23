@@ -33,7 +33,7 @@ namespace ApiPokemon.Services
                     catch (Exception e)
                     {
                         Console.Error.WriteLine("____________________Error al obtener los datos del tipo " + result["name"].ToString() + "____________________");
-                        Console.Error.WriteLine(e.StackTrace);
+                        Console.WriteLine("________________________________________");
                     }
                 }
                 context.Types.AddRange(data); // Añadimos los datos a la base de datos
@@ -74,6 +74,7 @@ namespace ApiPokemon.Services
                     {
                         Console.Error.WriteLine("____________________Error al obtener los datos de la habilidad " + result["name"].ToString() + "____________________");
                         Console.Error.WriteLine(e.StackTrace);
+                        Console.WriteLine("________________________________________");
                     }
                 }
                 context.Abilities.AddRange(data); // Añadimos los datos a la base de datos
@@ -104,7 +105,9 @@ namespace ApiPokemon.Services
                     try
                     {
                         // Buscamos el id del tipo en la base de datos, no conocemos el id asi que no podemos usar find directamente, usamos FirstOrDefault
-                        var dbType = context.Types.FirstOrDefault(t => t.Typename == moveDetail["type"]["name"].ToString());
+                        var movetypename = moveDetail["type"]["name"].ToString();
+                        if (movetypename.Equals("shadow")) movetypename = "ghost";
+                        var dbType = context.Types.FirstOrDefault(t => t.Typename == movetypename);
                         if (dbType == null)
                         {
                             throw new Exception("No se ha encontrado el tipo del movimiento " + result["name"].ToString() + " en la base de datos");
@@ -126,10 +129,10 @@ namespace ApiPokemon.Services
                             Power = moveDetail["power"].Value<byte?>(),
                             Accuracy = moveDetail["accuracy"].Value<byte?>(),
                             Pp = moveDetail["pp"]!.Value<byte?>(),
-                            IdtypeNavigation = dbType,
-                            Idtype = idFromType,
-                            IdcatNavigation = dbCategory,
-                            Idcat = idFromCategory
+                            TypeNavigation = dbType,
+                            TypeID = idFromType,
+                            CatNavigation = dbCategory,
+                            CatID = idFromCategory
                         });
                         
                     }
@@ -137,7 +140,9 @@ namespace ApiPokemon.Services
                     {
                         Console.Error.WriteLine("____________________Error al obtener los datos del movimiento " + result["name"].ToString() + "____________________");
                         Console.Error.WriteLine(e.Message);
-                     }
+                        Console.Error.WriteLine(e.StackTrace);
+                        Console.WriteLine("________________________________________");
+                    }
                     await context.SaveChangesAsync();
 
                 }
@@ -147,6 +152,7 @@ namespace ApiPokemon.Services
             else
             {
                 Console.WriteLine("Error al obtener los datos de movimientos");
+                Console.WriteLine("________________________________________");
             }
         }
         public async Task LoadPokemons()
@@ -225,6 +231,7 @@ namespace ApiPokemon.Services
                         {
                             Console.Error.WriteLine("____________________Error al añadir el pokemon " + result["name"] + " a la base de datos____________________");
                             Console.Error.WriteLine(e.StackTrace);
+                            Console.WriteLine("________________________________________");
                         }
                     }
                     else
@@ -286,6 +293,7 @@ namespace ApiPokemon.Services
                     {
                         Console.Error.WriteLine("____________________Error al obtener los datos del grupo de huevos " + result["name"].ToString() + "____________________");
                         Console.Error.WriteLine(e.StackTrace);
+                        Console.WriteLine("________________________________________");
                     }
                 }
                 context.Egggroups.AddRange(data); // Añadimos los datos a la base de datos
@@ -299,17 +307,16 @@ namespace ApiPokemon.Services
 
         public async Task LoadPics()
         {
-            using var transaction = await context.Database.BeginTransactionAsync();
             try
             {
                 foreach (var pok in context.Pokemons)
                 {
-                    var response = await client.GetAsync("https://pokeapi.co/api/v2/pokemon/" + pok.Idpoke);
+                    var response = await client.GetAsync($"https://pokeapi.co/api/v2/pokemon/{pok.Idpoke}");
                     if (response.IsSuccessStatusCode)
                     {
                         var json = await response.Content.ReadAsStringAsync(); // Obtenemos el json de la API
                         var jsonObject = JObject.Parse(json); // Parseamos el json a un objeto de tipo JObject para poder acceder a los datos
-                        var pic = jsonObject["sprites"]["other"]["official-artwork"]["front_default"].ToString();
+                        var pic = jsonObject["sprites"]?["other"]?["official-artwork"]?["front_default"]?.ToString();
                         if (pic != null)
                         {
                             pok.PicURL = pic;
@@ -320,7 +327,6 @@ namespace ApiPokemon.Services
                         {
                             Console.Error.WriteLine("Error al cargar la foto del pokemon: " + pok.Pokename);
                             throw new Exception("Error al cargar la foto del pokemon " + pok.Pokename);
-
                         }
                     }
                     else if (response.StatusCode == HttpStatusCode.NotFound)
@@ -330,18 +336,23 @@ namespace ApiPokemon.Services
                 }
 
                 await context.SaveChangesAsync();
-                await transaction.CommitAsync(); // Confirma la transacción
                 Console.WriteLine("CAMBIOS GUARDADOS");
+            }
+            catch (HttpRequestException e)
+            {
+                Console.Error.WriteLine("Error de red al intentar acceder a la API.");
+                Console.Error.WriteLine(e.Message);
+                throw;
             }
             catch (Exception e)
             {
                 // Si ocurre un error, deshacemos los cambios
                 Console.Error.WriteLine("Error genérico");
                 Console.Error.WriteLine(e.StackTrace);
-                await transaction.RollbackAsync();
                 throw; // Lanzamos la excepción para que pueda ser manejada en un nivel superior
             }
         }
+
 
 
 

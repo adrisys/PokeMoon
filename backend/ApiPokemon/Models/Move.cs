@@ -10,9 +10,9 @@ public partial class Move
 
     public string Movename { get; set; } = "";
 
-    public int Idtype { get; set; }
+    public int TypeID { get; set; }
 
-    public int Idcat { get; set; }
+    public int CatID { get; set; }
 
     public byte? Power { get; set; }
 
@@ -21,9 +21,9 @@ public partial class Move
     public byte? Pp { get; set; }
 
 
-    public virtual required Category IdcatNavigation { get; set; }
+    public virtual required Category CatNavigation { get; set; }
 
-    public virtual required PokeType IdtypeNavigation { get; set; }
+    public virtual required PokeType TypeNavigation { get; set; }
 
     public virtual ICollection<Pokemon> Idpokes { get; set; } = [];
 

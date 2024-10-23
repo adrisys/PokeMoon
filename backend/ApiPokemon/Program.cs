@@ -8,7 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Se configura la aplicacion para que pueda acceder a la base de datos sqlserver
 builder.Services.AddDbContext<PokemonContext>(options => options
-.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+    .UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), sqlOptions =>
+    {
+        sqlOptions.EnableRetryOnFailure();
+    })
 .EnableSensitiveDataLogging() // Se activa el logging de datos sensibles
 .EnableDetailedErrors() // Se activan los errores detallados
 .UseLazyLoadingProxies() // Se activan los proxies de carga diferida
@@ -40,40 +43,59 @@ var app = builder.Build();
 
 // Las operaciones que se hacen aqui se corresponden con el metodo main fuera de la logica de peticiones http
 
-using (var scope = app.Services.CreateScope())// Se crea un scope para poder usar el servicio de acceso a la base de datos
+using (var scope = app.Services.CreateScope()) // Se crea un scope para poder usar el servicio de acceso a la base de datos
 {
-    var services = scope.ServiceProvider;  
-    var logger = services.GetRequiredService<ILogger<Program>>();// Obtenemos el logger para mostrar mensajes
+    var services = scope.ServiceProvider;
+    var logger = services.GetRequiredService<ILogger<Program>>(); // Obtenemos el logger para mostrar mensajes
     try
     {
-        var context = services.GetRequiredService<PokemonContext>(); // Obtenemos el contexto de la base de datos      
-        var client = services.GetRequiredService<IHttpClientFactory>().CreateClient();// Creamos un cliente http para hacer las peticiones a la API pokeapi
+        var context = services.GetRequiredService<PokemonContext>(); // Obtenemos el contexto de la base de datos
+        var client = services.GetRequiredService<IHttpClientFactory>().CreateClient(); // Creamos un cliente http para hacer las peticiones a la API pokeapi
 
         // Obtenemos el servicio de carga de datos
-        var loadDataService = services.GetRequiredService<LoadDataService>(); //No hace falta declarar los parametros que necesita el servicio en un constructor ya que se cargan automaticamente por inyeccion de dependencias.
+        //var loadDataService = services.GetRequiredService<LoadDataService>();
 
-        // Creacion de la base de datos
+        // Creación de la base de datos
+        // context.Database.EnsureDeleted(); // Borramos la base de datos si existe
+        // context.Database.EnsureCreated(); // Creamos la base de datos
 
-        //context.Database.EnsureDeleted(); // Borramos la base de datos si existe
-        //context.Database.EnsureCreated(); // Creamos la base de datos
+        // Estrategia de ejecución
+        //var strategy = context.Database.CreateExecutionStrategy();
 
-        // Carga de datos
+        // Ejecuta las operaciones dentro de la estrategia de ejecución
+        //await strategy.ExecuteAsync(async () =>
+        //{
+        //    using (var transaction = await context.Database.BeginTransactionAsync())
+        //    {
+        //        try
+        //        {
+        //            // Carga de datos
+        //            //await loadDataService.LoadTypes();
+        //            //await loadDataService.LoadCategories();
+        //            //await loadDataService.LoadAbilities();
+        //            //await loadDataService.LoadMoves();
+        //            //await loadDataService.LoadPokemons();
+        //            //await loadDataService.LoadEgggroups();
+        //            //await loadDataService.LoadPics();
 
-        //loadDataService.LoadTypes().Wait(); // Cargamos los tipos
-        //loadDataService.LoadCategories().Wait(); // Cargamos las categorias
-        //loadDataService.LoadAbilities().Wait(); // Cargamos las habilidades
-        //loadDataService.LoadMoves().Wait(); // Cargamos los movimientos
-        //loadDataService.LoadPokemons().Wait(); // Cargamos los pokemons
-        //loadDataService.LoadEgggroups().Wait(); // Cargamos los grupos de huevos
-        //loadDataService.LoadPics().Wait();
-
+        //            // Confirma la transacción
+        //            await transaction.CommitAsync();
+        //        }
+        //        catch
+        //        {
+        //            // Si ocurre un error, revierte la transacción
+        //            await transaction.RollbackAsync();
+        //            throw;
+        //        }
+        //    }
+        //});
     }
     catch (Exception ex)
     {
-
         logger.LogError(ex, "An error occurred while accessing the database.");
     }
 }
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
